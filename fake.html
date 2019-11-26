@@ -6,29 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fluid layouts with Flexbox</title>
     <style>
-      body,
-      html {
-        height: 100%;
-      }
-      .father {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-      }
       .box {
         background-color: red;
-        width: 200px;
-        height: 200px;
-        border: 1px solid black;
+        color: white;
+        font-size: 40px;
+        transition: background-color 0.2s ease-in-out;
+      }
+      .box:hover {
+        background-color: gray;
       }
     </style>
   </head>
   <body>
-    <div class="father">
-      <div class="box"></div>
-      <div class="box"></div>
-      <div class="box"></div>
-    </div>
+    <span class="box">lalalala</span>
   </body>
 </html>
