@@ -23,9 +23,9 @@
 
 .nav .nav__badge {
   position: absolute;
-  top: -15px;
+  top: -18px;
   right: -7px;
-  font-size: 10px;
+  font-size: 17px;
   color: white;
   background-color: #dc5d46;
   width: 20px;
@@ -33,5 +33,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 50%; /*네모에서 50%를 주면 동그랗게 만들어짐*/
 }
