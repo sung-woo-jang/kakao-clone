@@ -5,23 +5,23 @@
   align-items: center;
 }
 
-.header__title {
+.header .header__title {
   font-size: 24px;
   font-weight: 700;
 }
 
-.header__icon {
+.header .header__icon {
   font-size: 20px;
   margin-left: 20px;
   cursor: pointer;
 }
 
-.header__header-column {
+.header .header__header-column {
   display: flex;
   align-items: center;
 }
 
-.header__back-btn {
+.header .header__back-btn {
   font-size: 22px;
   margin-right: 20px;
 }
