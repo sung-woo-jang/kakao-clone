@@ -11,73 +11,73 @@
     <link rel="stylesheet" href="css/style.css" class="" />
     <title>Chat | KaKao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
-      <div class="sturus-bar__columnn">
+      <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
       </div>
-      <div class="sturus-bar__columnn">
+      <div class="status-bar__column">
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-lever">100%</span>
-        <i class="fas fa fa-battery-full"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <header calss="header">
+    <header class="header">
       <div class="header__header-column">
         <a href="index.html" class="header__back-btn">
           <i class="fas fa-arrow-left"></i>
         </a>
-        <h1 class="header__title">견둥이♥</h1>
+        <h1 class="header__title">Best Friend</h1>
       </div>
-      <span class="header__header-column">
+      <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <div class="header__icon">
+        <span class="header__icon">
           <i class="fas fa-bars"></i>
-        </div>
-      </span>
+        </span>
+      </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
-        <span class="chat__timestamp">2019년 11월 5일 화요일</span>
+        <span class="chat__timestamp">2019년 12월 17일</span>
         <li class="incoming-message message">
-          <img src="images/rus.jpg" class="m-avatar massage__avatar" />
+          <img src="images/rus.jpg" class="m-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">견둥이♥</span>
-            <div class="message__bubble">
-              ♥♥♥♥벌써 79일이얌♥♥♥♥
-            </div>
+            <span class="message__bubble">
+              벌써 120일이얌
+            </span>
+            <span class="message__author">견둥이</span>
           </div>
-          <span class="message__timestamp">00:22</span>
         </li>
-        <li class="incoming-message message">
-          <span class="message__timestamp">00:25</span>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
-              내일은 내가 올릴거야!!
-            </div>
+            <span class="message__bubble">
+              마쟈!
+            </span>
           </div>
         </li>
       </ul>
     </main>
     <div class="chat__write">
-      <div class="char__write-columnn">
+      <div class="chat__write-column">
         <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
         <input
           type="text"
-          placeholder="메세지 입력."
+          placeholder="메세지 입력"
           class="chat__write-input"
         />
-        <input type="button" value="보내기" />
       </div>
-      <div class="char__write-columnn">
-        <span class="char__write-icon">
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
           <i class="far fa-smile-wink"></i>
         </span>
-        <span class="char__write-icon">
+        <span class="chat__write-icon">
           <i class="fas fa-microphone"></i>
         </span>
       </div>
