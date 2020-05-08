@@ -3,33 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/e672f2899a.js"
-      crossorigin="anonymous"
-    ></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/style.css" class="" />
-    <title>chats | KaKao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>Chats | Kakao Clone</title>
   </head>
   <body>
-  
     <div class="status-bar">
-      <div class="sturus-bar__columnn">
-        <span class="status-bar__clock">13:54</span>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54 </span>
       </div>
-      <div class="sturus-bar__columnn">
+      <div class="status-bar__column">
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
         <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa fa-battery-full"></i>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">
-          채팅
-        </h1>
+        <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -47,23 +45,17 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chats__chat friend friend--lg">
-              <div class="friend__column">
-                <img src="images/rus.jpg" class="m-avatar friend__avatar" />
-                <div class="friend__content">
-                  <span class="friend__name">
-                    견둥이
-                  </span>
-                  <span class="friend__bottom-text">
-                    내일은 내가 올릴꺼야!!
-                  </span>
-                </div>
-              </div>
-              <div class="friend__column">
-                <span class="chat__timestamp">
-                  11월 27일
+            <div class="chat__column">
+              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
+              <div class="chat__content">
+                <span class="chat__username">
+                  Lynn
                 </span>
+                <span class="chat__preview">Going home!</span>
               </div>
+            </div>
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
             </div>
           </a>
         </li>
@@ -73,14 +65,11 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
+            <i class="far fa-user"></i
+          ></a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <div class="nav__badge">
-              2
-            </div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
