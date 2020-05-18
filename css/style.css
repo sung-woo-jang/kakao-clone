@@ -3,6 +3,8 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
 
 * {
   box-sizing: border-box;
@@ -21,4 +23,5 @@ body {
 a {
   color: inherit;
   /* 부모 요소의 색깔을 상속받음 */
+  text-decoration: none;
 }
